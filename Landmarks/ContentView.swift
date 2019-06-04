@@ -14,6 +14,7 @@ struct ContentView : View {
       HStack(){
         Text("Hello 00")
         Text("Hello 00")
+        Spacer()
         Text("Hello 00")
       }
      
