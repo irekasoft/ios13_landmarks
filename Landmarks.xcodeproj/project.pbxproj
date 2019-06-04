@@ -120,11 +120,11 @@
 		A39964E722A64A64004D6E7F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A39964EA22A64AC3004D6E7F /* LandmarkList.swift */,
 				A39964E122A64444004D6E7F /* MapView.swift */,
 				A39964C722A5F0AC004D6E7F /* LandmarkDetailView.swift */,
 				A39964DF22A643BD004D6E7F /* CircleImage.swift */,
 				A39964E822A64A87004D6E7F /* LandmarkRow.swift */,
-				A39964EA22A64AC3004D6E7F /* LandmarkList.swift */,
 				A39964DD22A640DA004D6E7F /* SecondScene.swift */,
 			);
 			path = View;

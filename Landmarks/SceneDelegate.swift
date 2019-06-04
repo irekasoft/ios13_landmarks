@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let secondNavCon = UINavigationController.init(rootViewController: UIHostingController(rootView: SecondScene()))
 
     let tabCon = UITabBarController.init()
-    tabCon.viewControllers = [navCon, secondNavCon]
+    tabCon.viewControllers = [UIHostingController(rootView: LandmarkList()), secondNavCon]
     window.rootViewController = tabCon
     
     self.window = window
