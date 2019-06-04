@@ -20,22 +20,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     // Use a UIHostingController as window root view controller
     let window = UIWindow(frame: UIScreen.main.bounds)
+
     //    window.rootViewController = UIHostingController(rootView: ContentView())
     
     let navCon = UINavigationController.init()
-    
     navCon.addChild(UIHostingController(rootView: ContentView()))
-    
-    let tabCon = UITabBarController.init()    
     
     let secondNavCon = UINavigationController.init(rootViewController: UIHostingController(rootView: SecondScene()))
 
+    let tabCon = UITabBarController.init()
     tabCon.viewControllers = [navCon, secondNavCon]
-    
     window.rootViewController = tabCon
     
     self.window = window
-    
     window.makeKeyAndVisible()
     
   }
