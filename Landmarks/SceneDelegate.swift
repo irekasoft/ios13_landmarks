@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //    window.rootViewController = UIHostingController(rootView: ContentView())
     
     let navCon = UINavigationController.init()
-    navCon.addChild(UIHostingController(rootView: ContentView()))
+    navCon.addChild(UIHostingController(rootView: LandmarkList()))
     
     let secondNavCon = UINavigationController.init(rootViewController: UIHostingController(rootView: SecondScene()))
 

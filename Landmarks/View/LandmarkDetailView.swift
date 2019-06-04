@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct LandmarkDetailView : View {
   var body: some View {
     VStack {
       MapView()
@@ -40,7 +40,7 @@ struct ContentView : View {
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetailView()
     }
 }
 #endif
