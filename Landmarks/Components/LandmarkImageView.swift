@@ -21,7 +21,7 @@ struct LandmarkImageView : View {
         .aspectRatio(contentMode: self.zoomed ? .fill : .fit)
         .navigationBarTitle(Text("ABC"),displayMode: .inline)
         .tapAction {
-          withAnimation(.basic(duration:2)){
+          withAnimation(.basic(duration:0.5)){
             self.zoomed.toggle()
           }
         }.frame(minWidth:0, maxWidth: .infinity, minHeight:0, maxHeight: .infinity)

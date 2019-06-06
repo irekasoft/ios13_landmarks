@@ -14,23 +14,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   var window: UIWindow?
   
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     
     // Use a UIHostingController as window root view controller
     let window = UIWindow(frame: UIScreen.main.bounds)
-
-    //    window.rootViewController = UIHostingController(rootView: ContentView())
     
-    let navCon = UINavigationController.init()
-    navCon.addChild(UIHostingController(rootView: LandmarkList()))
+    window.rootViewController = UIHostingController(rootView: LandmarkList())
     
-    let secondNavCon = UINavigationController.init(rootViewController: UIHostingController(rootView: SecondScene()))
-
-    let tabCon = UITabBarController.init()
-    tabCon.viewControllers = [UIHostingController(rootView: LandmarkList()), secondNavCon]
-    window.rootViewController = tabCon
+//    let navCon = UINavigationController.init()
+//    navCon.addChild(UIHostingController(rootView: LandmarkList()))
+//
+//    let secondNavCon = UINavigationController.init(rootViewController: UIHostingController(rootView: SecondScene()))
+//
+//    let tabCon = UITabBarController.init()
+//    tabCon.viewControllers = [UIHostingController(rootView: LandmarkList()), secondNavCon]
+//
+//    window.rootViewController = tabCon
+    
+    
     
     self.window = window
     window.makeKeyAndVisible()

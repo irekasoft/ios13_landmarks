@@ -13,12 +13,13 @@ struct LandmarkList : View {
     
     //      LandmarkRow(landmark: landmarkData[0])
     //      LandmarkRow(landmark: landmarkData[1])
+    
     NavigationView{
       List(landmarkData) { landmark in
         
-        NavigationButton(destination: LandmarkDetailView()) {
+        NavigationButton(destination: LandmarkDetailView(landmark: landmark)) {
           
-          LandmarkRow(landmark: landmark)
+          LandmarkRow(landmark: landmark)          
           
         }
         }
@@ -32,7 +33,10 @@ struct LandmarkList : View {
 #if DEBUG
 struct LandmarkList_Previews : PreviewProvider {
   static var previews: some View {
-    LandmarkList()
+    
+    Group {
+      LandmarkList()
+    }
   }
 }
 #endif
