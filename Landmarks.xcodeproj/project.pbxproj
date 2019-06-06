@@ -33,6 +33,7 @@
 		A399650422A64E4C004D6E7F /* icybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A39964F822A64E4C004D6E7F /* icybay.jpg */; };
 		A399650522A64E4C004D6E7F /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A39964F922A64E4C004D6E7F /* twinlake.jpg */; };
 		A399650622A64E4C004D6E7F /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A39964FA22A64E4C004D6E7F /* hiddenlake.jpg */; };
+		A3CCF60222A862E600AF8491 /* LandmarkImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCF60122A862E600AF8491 /* LandmarkImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		A39964F822A64E4C004D6E7F /* icybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icybay.jpg; sourceTree = "<group>"; };
 		A39964F922A64E4C004D6E7F /* twinlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twinlake.jpg; sourceTree = "<group>"; };
 		A39964FA22A64E4C004D6E7F /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
+		A3CCF60122A862E600AF8491 /* LandmarkImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A39964EA22A64AC3004D6E7F /* LandmarkList.swift */,
+				A3CCF60122A862E600AF8491 /* LandmarkImageView.swift */,
 				A39964E122A64444004D6E7F /* MapView.swift */,
 				A39964C722A5F0AC004D6E7F /* LandmarkDetailView.swift */,
 				A39964DF22A643BD004D6E7F /* CircleImage.swift */,
@@ -248,6 +251,7 @@
 				A39964DE22A640DA004D6E7F /* SecondScene.swift in Sources */,
 				A39964E222A64444004D6E7F /* MapView.swift in Sources */,
 				A39964C422A5F0AC004D6E7F /* AppDelegate.swift in Sources */,
+				A3CCF60222A862E600AF8491 /* LandmarkImageView.swift in Sources */,
 				A39964EB22A64AC3004D6E7F /* LandmarkList.swift in Sources */,
 				A39964C622A5F0AC004D6E7F /* SceneDelegate.swift in Sources */,
 				A39964C822A5F0AC004D6E7F /* LandmarkDetailView.swift in Sources */,

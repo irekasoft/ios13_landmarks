@@ -39,8 +39,13 @@ struct LandmarkDetailView : View {
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        LandmarkDetailView()
-    }
+  static var previews: some View {
+    
+    NavigationView {
+      LandmarkDetailView()
+    }.navigationBarTitle(Text("Awesome Places"), displayMode: .inline)
+    
+    
+  }
 }
 #endif

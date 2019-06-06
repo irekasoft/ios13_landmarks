@@ -15,15 +15,18 @@ struct LandmarkList : View {
     //      LandmarkRow(landmark: landmarkData[1])
     NavigationView{
       List(landmarkData) { landmark in
-//        LandmarkRow(landmark: landmark)
+        
         NavigationButton(destination: LandmarkDetailView()) {
+          
           LandmarkRow(landmark: landmark)
+          
         }
-      }
-      .navigationBarTitle(Text("Landmarks"))
+        }
+        .navigationBarTitle(Text("Awesome Places"), displayMode: .inline)
     }
     
   }
+  
 }
 
 #if DEBUG
